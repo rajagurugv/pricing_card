@@ -1,0 +1,148 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.section{
+	width:85%;
+}
+.header{
+	width:100%;
+	display:flex;
+	align-items:center;
+	text-align:center;
+	flex-direction:column;
+	height: 145px;
+	gap:8px;
+	
+}
+.cards{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;	
+	text-align:center;
+	height: 340px;
+	gap:10px;
+}
+.heading{
+	color:#0980e7;
+	height:60px;
+	background-color:#F8F8F8;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size:x-large;
+	 font-family: 'Poppins', sans-serif;
+	
+}
+.buynow{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:90px;
+	text-decoration:none;
+	background-color:#F8F8F8;
+	
+}
+.buynow a{
+	text-decoration:none;
+	border-radius:50px;
+	width:130px;
+	padding:15px;
+	background-color:#0980e7;
+	color:white;
+	
+}
+.free_card{
+	width:25%;
+	border:1px solid gray;
+	
+}
+.bussiness_card{
+	width:25%;
+	border:1px solid gray;
+	
+}
+.devloper_card{
+	width:25%;
+	border:1px solid gray;
+	
+}
+.ultimate_card{
+	width:25%;
+	border:1px solid gray;
+	position:relative;
+	overflow:hidden;
+	
+}
+.advanced{
+	color:white;
+	position:absolute;
+	background-color:#0980e7;
+	transform: rotate(45deg);
+	font-size:10px;
+	left:240px;
+	width:100px;
+	
+}
+
+.p{
+	flex-direction:column;
+	display:flex;
+	justify-content:center;
+	gap:15px;
+	padding:20px;
+}
+sup {
+	color:#0980e7;
+}
+h2{
+	color:#0980e7;
+}
+span{
+	color:lightgray;
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+	color:#1D5282;
+}
+.through{
+	text-decoration:line-through;
+	color:lightgray;
+}
+.free_card:hover .heading{
+	background-color:#0980e7;
+	color:white;
+	cursor:pointer;
+	transition:0.8s;
+}
+.bussiness_card:hover .heading{
+	background-color:#0980e7;
+	color:white;
+	cursor:pointer;
+	transition:0.8s;
+}
+.devloper_card:hover .heading{
+	background-color:#0980e7;
+	color:white;
+	cursor:pointer;
+	transition:0.8s;
+}
+.ultimate_card:hover .heading{
+	background-color:#0980e7;
+	color:white;
+	cursor:pointer;
+	transition:0.8s;
+}
+.ultimate_card:hover .advanced{
+	background-color:white;
+	color:#0980e7;
+	transition:0.8s;
+}
